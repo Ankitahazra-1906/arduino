@@ -1,6 +1,6 @@
 void setup()
 {
-  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
   pinMode(A0, INPUT);
 }
 
@@ -13,10 +13,10 @@ void loop()
   float tempK = tempC + 273;
   if(tempK >= 279 )
   {
-    digitalWrite(5,HIGH);
+    digitalWrite(6,HIGH);
   }
   else
   {
-    digitalWrite(5,LOW);
+    digitalWrite(6,LOW);
   }
 }
